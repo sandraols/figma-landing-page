@@ -119,7 +119,7 @@ li {
 
 .first-section {
     width: 1126px;
-    height: 85vh;
+    height: 90vh;
     margin-left: 9vw;
     display: flex;
 }
@@ -229,6 +229,12 @@ li {
     margin-top: 34px;
 }
 
+.gradient {
+    position: absolute;
+    bottom: -87vh;
+    z-index: -1;
+    max-width: 100vw;
+}
 
 /*--------------------------*/
 /* THIRD SECTION */
@@ -268,3 +274,8 @@ li {
     max-height: 574px;
     margin-left: 104px;
 }
+
+
+/*--------------------------*/
+/* FOURTH SECTION */
+/*--------------------------*/
