@@ -21,6 +21,11 @@ li {
     font-weight: 700;
 }
 
+.sub-title {
+    line-height: 1.5;
+    font-size: 36px;
+}
+
 .button {
     font-size: 16px;
     border-radius: 4px;
@@ -29,6 +34,14 @@ li {
 
 .button:hover {
     cursor: pointer;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+    line-height: 1.6;
+    max-width: 486px;
 }
 
 
@@ -111,8 +124,6 @@ li {
     display: flex;
 }
 
-/*------- LEFT SIDE -------*/
-
 .left-side-container {
     width: 41%;
 }
@@ -125,8 +136,9 @@ li {
     max-width: 458px;
 }
 
-.paragraph {
+.header-paragraph {
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.6;
     color: #544837;
     width: 450px;
@@ -163,12 +175,9 @@ li {
     text-decoration: none;
 }
 
-/*------- RIGHT SIDE -------*/
-
 .first-section-img {
-    /* max-width: 605px;
-    max-height: 496px; */
     margin-top: 3vh;
+    margin-left: 10px;
 }
 
 
@@ -184,16 +193,16 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 120px;
 }
 
-.sub-title {
+.centered-title {
     width: 539px;
-    height: 108px;
-    line-height: 1.5;
-    font-size: 36px;
     text-align: center;
     margin: 0 auto;
 }
+
+/*------- FEATURES -------*/
 
 .features {
     width: 100%;
@@ -212,14 +221,50 @@ li {
 }
 
 .features-paragraph {
-    font-weight: 500;
-    font-size: 16px;
-    color: #544837;
-    line-height: 1.6;
     max-width: 240px;
 }
 
 .features-button {
     text-align: center;
     margin-top: 34px;
+}
+
+
+/*--------------------------*/
+/* THIRD SECTION */
+/*--------------------------*/
+
+.third-section {
+    height: 100vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    display: flex;
+    align-items: center;
+}
+
+.info-container {
+    max-height: 531px;
+}
+
+.info-title {
+    margin-bottom: 22px;
+    margin-top: 3px;
+}
+
+.smaller-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.info-container .paragraph:not(:first-child) {
+    margin-bottom: 25px;
+}
+
+.info-container .paragraph:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.third-section-img {
+    max-height: 574px;
+    margin-left: 104px;
 }
