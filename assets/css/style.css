@@ -36,14 +36,6 @@ li {
     cursor: pointer;
 }
 
-.paragraph {
-    font-weight: 500;
-    font-size: 16px;
-    color: #544837;
-    line-height: 1.6;
-    max-width: 486px;
-}
-
 
 /*--------------------------*/
 /* HEADER */
@@ -86,6 +78,10 @@ li {
     text-decoration: none;
     color: #2F281E;
     font-size: 14px;
+}
+
+.nav-bar-link:hover {
+    color: #FF9900;
 }
 
 /*------- NAV BUTTONS -------*/
@@ -220,7 +216,7 @@ li {
     margin-bottom: 13px;
 }
 
-.features-paragraph {
+.features-paragraph.paragraph {
     max-width: 240px;
 }
 
@@ -236,11 +232,20 @@ li {
     max-width: 100vw;
 }
 
+
 /*--------------------------*/
-/* THIRD SECTION */
+/* INFO SECTIONS */
 /*--------------------------*/
 
-.third-section {
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+    line-height: 1.6;
+    max-width: 486px;
+}
+
+.info-section {
     height: 100vh;
     padding-left: 9vw;
     padding-right: 9vw;
@@ -262,7 +267,10 @@ li {
     margin-bottom: 12px;
 }
 
-.info-container .paragraph:not(:first-child) {
+
+/*------- THIRD SECTION -------*/
+
+.info-container .paragraph:not(:first-child):not(.checkmark-paragraph) {
     margin-bottom: 25px;
 }
 
@@ -275,7 +283,26 @@ li {
     margin-left: 104px;
 }
 
+/*------- FOURTH SECTION -------*/
 
-/*--------------------------*/
-/* FOURTH SECTION */
-/*--------------------------*/
+.checkmark-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fa-check-square {
+    color: #FF9900;
+    font-size: 35px;
+}
+
+.checkmark-info .checkmark-paragraph:not(:first-child) {
+    width: 370px;
+    margin-left: 30px;
+}
+
+.fourth-section-img {
+    max-height: 520px;
+    margin-right: 102px;
+}
+
