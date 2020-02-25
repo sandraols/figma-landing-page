@@ -242,6 +242,7 @@ li {
     font-size: 16px;
     color: #544837;
     line-height: 1.6;
+    width: 460px;
     max-width: 486px;
 }
 
@@ -267,16 +268,15 @@ li {
     margin-bottom: 12px;
 }
 
-
-/*------- THIRD SECTION -------*/
-
-.info-container .paragraph:not(:first-child):not(.checkmark-paragraph) {
-    margin-bottom: 25px;
-}
-
 .info-container .paragraph:nth-of-type(2) {
     margin-bottom: 30px;
 }
+
+.info-container .paragraph:not(:first-child):not(.checkmark-paragraph):not(:nth-of-type(2)) {
+    margin-bottom: 25px;
+}
+
+/*------- THIRD SECTION -------*/
 
 .third-section-img {
     max-height: 574px;
@@ -303,6 +303,13 @@ li {
 
 .fourth-section-img {
     max-height: 520px;
-    margin-right: 102px;
+    margin-right: 90px;
+}
+
+/*------- FIFTH SECTION -------*/
+
+.fifth-section-img {
+    max-height: 609px;
+    margin-left: 70px;
 }
 
