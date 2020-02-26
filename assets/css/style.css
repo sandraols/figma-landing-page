@@ -116,7 +116,6 @@ li {
 }
 
 .nav-bar-button2 {
-    border: none;
     background-color: #FF9900;
     color: #ffffff;
 }
@@ -329,4 +328,82 @@ li {
 .fifth-section-img {
     max-height: 609px;
     margin-left: 70px;
+}
+
+
+/*--------------------------*/
+/* FOOTER SECTION */
+/*--------------------------*/
+
+.footer-section {
+    padding-left: 9vw;
+    padding-right: 9vw; 
+}
+
+.footer-wrapper {
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    max-width: 1109px;
+    height: 308px;
+    margin-top: 146px;
+    margin-bottom: 83px;   
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 102px;
+}
+
+.footer-logo {
+    height: 32px;
+    width: 185px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.2;
+    text-decoration: none;
+    color: #544837;
+    transition: .2s ease;
+}
+
+.footer-link:nth-of-type(1) {
+    margin-top: 35px;
+}
+
+.footer-link:hover {
+    color: #FF9900;
+}
+
+.footer-signup {
+    max-width: 280px;
+    margin-bottom: 34px;
+}
+
+.footer-input {
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    width: 325px;
+    height: 48px;
+}
+
+.footer-button {
+    background-color: #FF9900;
+    color: #ffffff;
+    width: 131px;
+    height: 39px;
+    font-weight: 700;
+    margin-top: 21px;
 }
